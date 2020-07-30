@@ -11,7 +11,7 @@ Contact: api@xero.com
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Xero.NetStandard.OAuth2</PackageId>
     <Version>3.1.0</Version>
-    <Authors>Xero API</Authors>
+    <Authors>Intrinsiq</Authors>
     <Company>Xero</Company>
     <PackageLicenseUrl>https://github.com/XeroAPI/Xero-NetStandard/</PackageLicenseUrl>
     <PackageIconUrl>https://en.gravatar.com/userimage/180557955/74b3a957d886bc921b0d1455beed9dab.png</PackageIconUrl>
@@ -22,11 +22,11 @@ Contact: api@xero.com
     <PackageDescription>This is a .NETStandard SDK library, used to communicate with the Xero API using OAuth2.0. See https://github.com/XeroAPI/Xero-NetStandard for more information</PackageDescription>
   </PropertyGroup>
   <ItemGroup>
-      <PackageReference Include="CompareNETObjects" Version="4.57.0" />
-      <PackageReference Include="JsonSubTypes" Version="1.5.2" />
-      <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-      <PackageReference Include="RestSharp" Version="106.6.7" />
-      <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+      <PackageReference Include="CompareNETObjects" Version="4.66.0" />
+      <PackageReference Include="JsonSubTypes" Version="1.7.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="RestSharp" Version="106.11.4" />
+      <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
   </ItemGroup>
 </Project>
 
