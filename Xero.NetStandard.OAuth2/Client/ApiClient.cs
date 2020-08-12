@@ -446,7 +446,7 @@ namespace Xero.NetStandard.OAuth2.Client
             }
 
             InterceptRequest(req);
-            var response = await client.ExecuteTaskAsync<T>(req);
+            var response = client.Execute<T>(req);
             InterceptResponse(req, response);
 
             var result = toApiResponse(response);
