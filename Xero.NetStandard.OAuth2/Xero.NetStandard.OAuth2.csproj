@@ -20,6 +20,7 @@ Contact: api@xero.com
     <PackageTags>xero;api;sdk;oauth2;oauth2.0</PackageTags>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <PackageDescription>This is a .NETStandard SDK library, used to communicate with the Xero API using OAuth2.0. See https://github.com/XeroAPI/Xero-NetStandard for more information</PackageDescription>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
       <PackageReference Include="CompareNETObjects" Version="4.66.0" />
